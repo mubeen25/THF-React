@@ -60,15 +60,31 @@
 }
 
 .slide-2 {
-    background: url(../assets/Slider-2.jpg) center no-repeat !important;
-}
-
-.slide-3 {
-    background: url(../assets/slider-3.jpg) center no-repeat !important;
-}
-
-.slide-4 {
     background: url(../assets/slider-4.jpg) center no-repeat !important;
+}
+
+.slide-3{
+    background: url(../assets/SNTI.jpg) center no-repeat !important ;
+}
+
+.slide-4{
+    background: url(../assets/DMS.jpg) center no-repeat !important ;
+}
+.slide-5{
+    background: url(../assets/ABHTI.jpg) center no-repeat !important ;
+}
+.slide-6{
+    background: url(../assets/SDAMKTI.jpg) center no-repeat !important ;
+}
+.slide-7{
+    background: url(../assets/PTTI.jpg) center no-repeat !important ;
+}
+.slide-8{
+    background: url(../assets/HAKTI.jpg) center no-repeat !important ;
+}
+
+.slide-10 {
+    background: url(../assets/Slider-2.jpg) center no-repeat !important;
 }
 
 .slide-text-4 {
