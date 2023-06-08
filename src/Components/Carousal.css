@@ -1,0 +1,81 @@
+/**Carousal**/
+
+#main {
+    margin-top: 65px;
+}
+
+.carousel {
+    z-index: 0;
+}
+
+/**Carousel Styling**/
+.content {
+    height: 950px;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+.carousal-logo {
+    width: 600px;
+    height: auto;
+}
+
+.carousel-text {
+    position: absolute;
+    left: 25px;
+    margin-top: 250px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+
+    color: #000000;
+}
+
+.carousal-cont {
+    position: relative;
+    padding: 150px 0;
+}
+
+.carousel-text-Q {
+    font-size: 50px;
+    font-weight: 800;
+    color: #043C8B;
+    -webkit-text-stroke: #000000 0.15px;
+}
+
+.sign-up {
+    position: absolute;
+    top: 700px;
+    background: #043C8B;
+    border-radius: 8px;
+    outline: none;
+}
+
+/**Carousel Slides**/
+.slide-1 {
+    background: url(../assets/Slider-1.jpg) center no-repeat !important;
+}
+
+.slide-2 {
+    background: url(../assets/Slider-2.jpg) center no-repeat !important;
+}
+
+.slide-3 {
+    background: url(../assets/slider-3.jpg) center no-repeat !important;
+}
+
+.slide-4 {
+    background: url(../assets/slider-4.jpg) center no-repeat !important;
+}
+
+.slide-text-4 {
+    text-align: center;
+    color: #000000;
+    background-color: #043C8B;
+    border: #fff 3px solid;
+    border-radius: 15px;
+    margin-top: 550px;
+}
