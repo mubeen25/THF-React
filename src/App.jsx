@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
 import Carousal from './Components/Carousal'
+import About from './Components/About'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navbar/>
       <Carousal/>
+      <About/>
     </>
   )
 }
