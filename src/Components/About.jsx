@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import './About.css'
 
@@ -47,8 +48,8 @@ const About = () => {
         <>
             {/* About  */}
             <section id="About">
-                <div class="container about">
-                    <h1 class="aboutheading">About Us</h1>
+                <div className="container about">
+                    <h1 className="aboutheading">About Us</h1>
                     <br />
                     {/* <div class="tab">
                         <button class="btn tablinks one main" onclick={openCity(event, 'Introduction')} id="defaultOpen">Introduction</button>
@@ -93,7 +94,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <button type="button" class="btn btn-outline-secondary"><a class="read-more" href="#"> Read
+                    <button type="button" className="btn btn-outline-secondary"><a className="read-more" href="#"> Read
                         More</a></button>
                 </div>
 

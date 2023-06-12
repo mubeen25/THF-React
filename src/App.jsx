@@ -7,6 +7,7 @@ import About from './Components/About'
 import DonersCarousel from './Components/DonersCarousel'
 import Skills from './Components/Skills'
 import Headlines from './Components/Headlines'
+import Institutes from './Components/Institutes'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <Headlines/>
       <About/>
+      <Institutes/>
       <DonersCarousel/>
     </>
   )
