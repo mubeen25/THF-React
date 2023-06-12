@@ -1,0 +1,16 @@
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    /* border-radius: 50%; */
+    border: none;
+    background-color: #063E8b !important; /* Inactive state color */
+    margin: 0 5px;
+    opacity: 1 !important;
+  }
+
+  .carousel-indicators button.active {
+    background-color: #46972d !important; /* Active state color */
+  }
+  #Donors{
+    
+  }

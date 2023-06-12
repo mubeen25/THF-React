@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Carousal from './Components/Carousal'
 import About from './Components/About'
+import DonersCarousel from './Components/DonersCarousel'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <Carousal/>
       <About/>
+      <DonersCarousel/>
     </>
   )
 }
