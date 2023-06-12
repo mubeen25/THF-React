@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import Carousal from './Components/Carousal'
 import About from './Components/About'
 import Skills from './Components/Skills'
+import Headlines from './Components/Headlines'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Carousal/>
       <Skills/>
+      <Headlines/>
       <About/>
     </>
   )
