@@ -25,3 +25,12 @@
 .text-lines {
     text-align: center;
 }
+
+@media screen and (min-device-width: 300px) and (max-device-width: 800) {
+    .methods-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        offset: 0;
+    }
+}

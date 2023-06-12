@@ -13,7 +13,7 @@ const Skills = () => {
     {/* Methodologies */}
     <section id="Methodologies">
         <div className="row methods-row">
-            <div className="col-lg-2 offset-1">
+            <div className="col-lg-2 offset-lg-1">
                 <img className="img-fluid methods-icons" src={conventional} alt="conventional" />
                 <h3 className="text-lines">Conventional Training</h3>
             </div>
