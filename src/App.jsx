@@ -7,6 +7,8 @@ import About from './Components/About'
 import DonersCarousel from './Components/DonersCarousel'
 import Skills from './Components/Skills'
 import StudentFeedback from './Components/StudentFeedback'
+import Headlines from './Components/Headlines'
+import Institutes from './Components/Institutes'
 
 function App() {
 
@@ -15,7 +17,9 @@ function App() {
       <Navbar/>
       <Carousal/>
       <Skills/>
+      <Headlines/>
       <About/>
+      <Institutes/>
       <DonersCarousel/>
       <StudentFeedback/>
     </>
