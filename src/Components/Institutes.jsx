@@ -8,7 +8,7 @@ import CVI from '../assets/Institutes/cvi.jpg'
 import AMAN from '../assets/Institutes/aman.jpg'
 import SADAM from '../assets/Institutes/sadamakti.jpg'
 import FASTI from '../assets/Institutes/Fasti.jpg'
-import PATTI from '../assets/Institutes/patti.PNG'
+import PATTI from '../assets/Institutes/patti.png'
 import HAKTI from '../assets/Institutes/hakti.jpg'
 
 const Institutes = () => {
