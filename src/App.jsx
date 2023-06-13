@@ -6,6 +6,7 @@ import Carousal from './Components/Carousal'
 import About from './Components/About'
 import DonersCarousel from './Components/DonersCarousel'
 import Skills from './Components/Skills'
+import StudentFeedback from './Components/StudentFeedback'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Skills/>
       <About/>
       <DonersCarousel/>
+      <StudentFeedback/>
     </>
   )
 }

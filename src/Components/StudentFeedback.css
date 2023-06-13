@@ -1,0 +1,22 @@
+#StudentFeedback{
+    background: #F5F5F5;
+    
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #46972C !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #043C8B !important;
+}
+
+.owl-stage-outer{
+    padding-top: 3em;
+    height: 100%;
+}
+.owl-nav button{
+    height: 100%;
+    width: 3em;
+}
+.owl-nav button span{
+    font-size: 3em;
+}

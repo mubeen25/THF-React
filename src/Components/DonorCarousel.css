@@ -12,5 +12,12 @@
     background-color: #46972d !important; /* Active state color */
   }
   #Donors{
-    
+    padding: 0;
+    margin: 0;
+  }
+  #Donors .container-fluid{
+    padding: 0;
+  }
+  .carousel-inner{
+    padding: 3em;
   }

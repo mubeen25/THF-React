@@ -13,15 +13,12 @@ const DonersCarousel = () => {
 
     return (
         <section id="Donors" className='my-3'>
-            <p class="text-center text-uppercase fs-1 fw-bold">
+            <p className="text-center text-uppercase fs-1 fw-bold">
                 INSTITUTIONAL AND CORPORATIONAL DONORS
             </p>
-            <div className='text-center'>
-                
-            </div>
-            <div className="container">
+            <div className="container-fluid">
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
+                    <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className={index === 0 ? 'active' : ''} aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" className={index === 1 ? 'active' : ''} aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" className={index === 2 ? 'active' : ''} aria-label="Slide 3"></button>
