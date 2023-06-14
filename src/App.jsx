@@ -9,19 +9,21 @@ import Skills from './Components/Skills'
 import StudentFeedback from './Components/StudentFeedback'
 import Headlines from './Components/Headlines'
 import Institutes from './Components/Institutes'
+import Campus from './Components/Campus'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Carousal/>
-      <Skills/>
-      <Headlines/>
-      <About/>
-      <Institutes/>
-      <DonersCarousel/>
-      <StudentFeedback/>
+      <Navbar />
+      <Carousal />
+      <Skills />
+      <Headlines />
+      <About />
+      <Institutes />
+      <DonersCarousel />
+      <Campus />
+      <StudentFeedback />
     </>
   )
 }
