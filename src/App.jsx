@@ -9,6 +9,7 @@ import Skills from './Components/Skills'
 import StudentFeedback from './Components/StudentFeedback'
 import Headlines from './Components/Headlines'
 import Institutes from './Components/Institutes'
+import UpcomingInstitutions from './Components/UpcomingInstitutions'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Headlines/>
       <About/>
       <Institutes/>
+      <UpcomingInstitutions/>
       <DonersCarousel/>
       <StudentFeedback/>
     </>
