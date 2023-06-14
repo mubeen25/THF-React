@@ -56,6 +56,11 @@
   animation: card-fade-in 1s ease-in-out forwards;
 }
 
+.card-before-fade {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
 @keyframes card-fade-in {
   from {
     opacity: 0;

@@ -1,0 +1,59 @@
+.campus-box {
+  width: 100%;
+}
+
+.header-box p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info-Box {
+  padding: 3%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.info-Box * {
+  margin-inline: 2%;
+}
+
+.info-button {
+  width: 156px;
+  height: 41px;
+  filter: drop-shadow(0px 4px 4px rgba(192, 192, 192, 0.25));
+  border: 1px solid #989898;
+  border-radius: 8px;
+}
+
+.green-rectangle {
+  width: 11.03px;
+  height: 110px;
+  background: #46972c;
+  border-radius: 5px;
+}
+.campus-image img {
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 445px) {
+  .info-Box {
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .green-rectangle {
+    width: 100%;
+    height: 6px;
+    background: #46972c;
+    border-radius: 5px;
+  }
+
+  .info-Box * {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
