@@ -23,17 +23,10 @@ function App() {
       <About/>
       <Institutes/>
       <UpcomingInstitutions/>
-      <DonersCarousel/>
-      <StudentFeedback/>
-      <Navbar />
-      <Carousal />
-      <Skills />
-      <Headlines />
-      <About />
-      <Institutes />
-      <DonersCarousel />
       <Campus />
-      <StudentFeedback />
+      <StudentFeedback/>
+      <DonersCarousel/>
+      
     </>
   )
 }
