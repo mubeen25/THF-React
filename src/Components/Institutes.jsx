@@ -20,16 +20,18 @@ const Institutes = () => {
             (entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
+                        entry.target.classList.remove('card-before-fade');
                         entry.target.classList.add('card-fade-in-from-left');
                     } else {
                         entry.target.classList.remove('card-fade-in-from-left');
+                        entry.target.classList.add('card-before-fade');
                     }
                 });
             },
             { rootMargin: '0px', threshold: 0.2 }
         );
 
-        const animatedElements = document.querySelectorAll('.card-fade-in-from-left');
+        const animatedElements = document.querySelectorAll('.card-before-fade');
         animatedElements.forEach((element) => {
             observer.current.observe(element);
         });
@@ -46,7 +48,7 @@ const Institutes = () => {
                 <div className="container">
                     <h1 className="heading"><span className="watermark"></span>OUR INSTITUTES</h1>
                     <div className="row">
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={DMSTI} alt="" />
@@ -54,7 +56,7 @@ const Institutes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={SNTI} alt="" />
@@ -62,7 +64,7 @@ const Institutes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={RAAS} alt="" />
@@ -70,7 +72,7 @@ const Institutes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={CVI} alt="" />
@@ -78,7 +80,7 @@ const Institutes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={AMAN} alt="" />
@@ -86,7 +88,7 @@ const Institutes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={SADAM} alt="" />
@@ -97,7 +99,7 @@ const Institutes = () => {
                     </div>
 
                     <div className="row">
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={FASTI} alt="" />
@@ -105,7 +107,7 @@ const Institutes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={PATTI} alt="" />
@@ -113,7 +115,7 @@ const Institutes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card-fade-in-from-left feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
+                        <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">
                             <div className="card">
                                 <div className="container">
                                     <img className="img-fluid" src={HAKTI} alt="" />
