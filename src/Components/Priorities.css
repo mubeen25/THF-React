@@ -1,0 +1,181 @@
+.Contribution{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contibution-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0;
+    background-image: url('./../assets/priorities/contribution.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    /* styling the text inside */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    border: 1px solid #043C8B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.priorities-heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    color: #000000;
+}
+.priorities-heading .underlined{
+    /* display: inline; */
+    border: .2em solid #46972C;
+    border-radius: 25px;
+    width: 20%;
+}
+.priority-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #494444;
+}
+.priorities-images-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text css */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* text-align: center; */
+
+    color: #FFFFFF;
+
+    border: 1px solid #043C8B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 305px;
+    margin: 1em;
+    text-align: center;
+    
+}
+#priorities-images-content-women{
+    background-image: url('./../assets/priorities/womens.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#priorities-images-content-employment{
+    background-image: url('./../assets/priorities/contribute.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#priorities-images-content-contribution{
+    background-image: url('./../assets/priorities/workshop-768x432.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#priorities-images-content-student{
+    background-image: url('./../assets/priorities/women-empowerment.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.result-impact{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    padding: 1em;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    /* padding: 2em; */
+    /* border:2em solid #46972C; */
+    background-color: #46972C;
+    /* text styling */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+
+}
+.content-counter{
+    margin: 1em 0;
+}
+
+.content-counter .counter-value{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+}
+
+
+
+.donation-text{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #043C8B;
+}
+.donation-button{
+    background: #043C8B;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.donation-button:hover{
+    background-color: #46972C;
+    color: #FFFFFF;
+}
+.donation-text .underlined{
+    border: .2em solid #46972C;
+    border-radius: 25px;
+    width: 20%;
+    
+}
