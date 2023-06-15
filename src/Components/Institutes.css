@@ -1,9 +1,13 @@
 /* institutes */
 #cards {
-  position: relative;
+  /* position: relative; */
   top: 90px;
 
   background: #f2f2f2;
+}
+
+#cards .institutes-section{
+  height: 100%;
 }
 
 #cards .card {

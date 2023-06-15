@@ -45,7 +45,7 @@ const Institutes = () => {
         <>
             {/* <!-- institutes --> */}
             <section id="cards">
-                <div className="container">
+                <div className="container institutes-section">
                     <h1 className="heading"><span className="watermark"></span>OUR INSTITUTES</h1>
                     <div className="row">
                         <div className="card-before-fade feature-box col-lg-4 col-md-6 col-sm-8 col-xs-12">

@@ -1,4 +1,6 @@
-
+#upcoming{
+  height: 100%;
+}
 .container_line_options{
     display: flex;
     align-items: start;
