@@ -2,9 +2,10 @@
     background-color: #FFFFFF;
     position: relative;
     width: 100%;
-    height: 350px;
+    height: 100%;
     left: 0px;
     top: 0px;
+    margin-bottom: 1em;
 }
 
 .aboutheading {
@@ -40,7 +41,9 @@
 .tab {
     outline-style: hidden;
 }
-
+.tab-section{
+    height: auto;
+}
 .main {
     position: relative !important;
     width: 146px !important;
@@ -190,3 +193,47 @@
     margin: 0 .5em;
     border-radius: 22px;
 }
+
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    /* padding: 2em; */
+    /* border:2em solid #46972C; */
+    background-color: #46972C;
+    /* text styling */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+
+}
+.content-counter{
+    margin: 1em 0;
+}
+
+.content-counter .counter-value{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.side-border{
+    border-right: 5px solid white;
+    border-bottom: none;
+}
+@media (max-width: 767px) {
+    .side-border {
+      border-right: none; /* Override the border-right property */
+      border-bottom: 5px solid white;
+    }
+  }
