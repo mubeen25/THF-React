@@ -34,11 +34,11 @@ const UpcomingInstitutions = () => {
                 <div className="container-fluid">
                     <h1 className="heading text-center" >UPCOMING INSTITUTE</h1>
                         <div className="row d-flex .justify-content-center .align-items-center p-5">
-                            <div className="col  changing_image">
+                            <div className="col-md  changing_image">
                                 <img  src={image} alt="" className="image-transition "/>
                             </div>
                             <div className="col  container_line_options">
-                                <div className="align-start">
+                                <div className="align-start ps-4">
                                     <span className={active == 1? 'option_line active': 'option_line'}></span>
                                     <button className="btn " 
                                     onClick={() => handleImageChange(feroz,1)}
@@ -52,18 +52,18 @@ const UpcomingInstitutions = () => {
                                     </button>
                                 </div>
 
-                                <div className="align-start">
+                                <div className="align-start ps-4">
                                     <span className={active == 2? 'option_line active': 'option_line'}></span>
                                     <button className="btn " 
                                     onClick={() => handleImageChange(orangi,2)}
                                     >
-                                        Mian Zubairi Girls Institute,
-                                        Orangi Town, Karachi
+                                        Mian Zubairi Girls Institute,<br/>
+                                        Orangi Town, <br/>Karachi
                                     </button>
 
 
                                 </div>
-                                <div className="align-start">
+                                <div className="align-start ps-4">
                                     <span className={active == 3? 'option_line active': 'option_line'}></span>
                                     <button className="btn" 
                                     onClick={() => handleImageChange(mansehra,3)}
