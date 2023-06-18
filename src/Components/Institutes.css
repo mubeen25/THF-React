@@ -75,3 +75,16 @@
     transform: translateX(0);
   }
 }
+
+
+@media (max-width: 770px) {
+  .institute-sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #cards .card{
+    margin: 20px auto;
+  }
+}

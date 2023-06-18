@@ -4,6 +4,9 @@
     margin-top: 65px;
 }
 
+#main .carousel-inner{
+    padding: 0 !important;
+}
 .carousel {
     z-index: 0;
 }

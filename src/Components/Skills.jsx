@@ -38,7 +38,7 @@ const Skills = () => {
     return (
         <>
             <section id="Methodologies">
-                <div className="row methods-row">
+                <div className="row methods-row g-0">
                     <div className="col-lg-2 offset-lg-1 card-before-fade-skills">
                         <img className="img-fluid methods-icons" src={conventional} alt="conventional" />
                         <h3 className="text-lines">Conventional Training</h3>
@@ -53,7 +53,7 @@ const Skills = () => {
                     </div>
                     <div className="col-lg-2 card-before-fade-skills">
                         <img className="img-fluid methods-icons" src={learning} alt="conventional" />
-                        <h3 className="text-lines">On-Job Trainings</h3>
+                        <h3 className="text-lines">On-Job <br/>Trainings</h3>
                     </div>
                     <div className="col-lg-2 card-before-fade-skills">
                         <img className="img-fluid methods-icons" src={ThreeD} alt="conventional" />

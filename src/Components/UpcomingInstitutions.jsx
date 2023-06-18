@@ -34,7 +34,7 @@ const UpcomingInstitutions = () => {
                 <div className="container-fluid">
                     <h1 className="heading text-center" >UPCOMING INSTITUTE</h1>
                         <div className="row d-flex .justify-content-center .align-items-center p-5">
-                            <div className="col-md  changing_image">
+                            <div className="col-lg changing_image">
                                 <img  src={image} alt="" className="image-transition "/>
                             </div>
                             <div className="col  container_line_options">
