@@ -12,6 +12,7 @@ import Institutes from './Components/Institutes'
 import UpcomingInstitutions from './Components/UpcomingInstitutions'
 import Campus from './Components/Campus'
 import Priorities from './Components/Priorities'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
       <Campus />
       <StudentFeedback/>
       <DonersCarousel/>
-      
+      <Footer/>
     </>
   )
 }
